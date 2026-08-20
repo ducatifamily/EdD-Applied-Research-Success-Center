@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111111" />
+  <meta name="description" content="Purdue Global EdD Applied Research Success Center for the Claxton-based applied research sequence." />
+  <title>EdD Applied Research Success Center</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#home" data-course-link="home" aria-label="EdD Applied Research Success Center home">
+        <img src="purdue-global-logo.png" alt="Purdue Global" />
+        <span><strong>EdD Applied Research</strong><small>Success Center · Claxton-Based Sequence</small></span>
+      </a>
+
+      <div class="course-picker-wrap">
+        <label for="course-picker">Course</label>
+        <select id="course-picker" aria-label="Choose a course">
+          <option value="home">Program Home</option>
+          <option value="ED780">ED780 — Active</option>
+          <option value="ED810">ED810 — Coming Soon</option>
+          <option value="ED822">ED822 — Active</option>
+          <option value="ED825">ED825 — Coming Soon</option>
+          <option value="ED830">ED830 — Coming Soon</option>
+          <option value="ED840">ED840 — Coming Soon</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div id="app" aria-live="polite"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-grid">
+      <div>
+        <img src="purdue-global-logo.png" alt="Purdue Global" />
+        <p><strong>EdD Applied Research Success Center</strong></p>
+      </div>
+      <p>Faculty-created supplemental guide. Brightspace directions, current EdD program resources, the Student Handbook, official Purdue Global policies, and formal committee/IRB determinations remain authoritative.</p>
+      <div class="footer-actions">
+        <button id="print-page" type="button">Print / Save</button>
+        <button id="clear-progress" type="button">Clear saved progress</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

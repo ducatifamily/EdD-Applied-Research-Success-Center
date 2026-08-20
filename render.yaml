@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: edd-applied-research-success-center
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
